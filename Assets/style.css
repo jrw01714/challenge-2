@@ -1,0 +1,61 @@
+:root {
+    --blue: rgb(135, 135, 225);
+    --grey: rgb(135, 135, 145)
+}
+
+* {
+    font-family: fantasy;
+}
+
+li {
+    padding-right: 5%;
+    padding-left: 5%
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    margin: 20px;
+    background-color: var(--blue);
+}
+
+.main img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px;
+}
+
+.heading-links {
+    background-color: var(--blue);
+    line-height: 500%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.heading-links {
+    background-color: var(--blue);
+    line-height: 500%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.about {
+    float: left;
+    height: 1000%;
+    width: 21.5%;
+    background-color: var(--grey);
+}
+
+.about h1 {
+    font-size: xx-large;
+}
